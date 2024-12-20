@@ -1,10 +1,10 @@
-import { Character, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
+import { Character, Clients, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
 
 export const character: Character = {
     ...defaultCharacter,
     name: "theOne",
     plugins: [],
-    clients: [],
+    clients: [Clients.TWITTER],
     modelProvider: ModelProviderName.GAIANET,
     // settings: {
     //     secrets: {},
