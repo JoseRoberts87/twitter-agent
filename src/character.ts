@@ -2,10 +2,10 @@ import { Character, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
 
 export const character: Character = {
     ...defaultCharacter,
-    // name: "Eliza",
-    // plugins: [],
-    // clients: [],
-    // modelProvider: ModelProviderName.OPENAI,
+    name: "theOne",
+    plugins: [],
+    clients: [],
+    modelProvider: ModelProviderName.GAIANET,
     // settings: {
     //     secrets: {},
     //     voice: {
